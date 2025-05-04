@@ -169,7 +169,7 @@ def main():
     with open(config_output, 'w') as f:
         f.write(config_xml)
 
-    print(f'successesfully created in /out')
+    print('successesfully created in /out')
 
 if __name__ == "__main__":
     main()
